@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erase una vez un cuadrao</title>
+</head>
+<body>
+    <h2>Parte A del ejercicio</h2>
+    <svg width="400" height="180">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150" style="fill:yellow;stroke:blue;stroke-width:4" />
+    </svg>
+    
+    <h2>Parte B del ejercicio</h2>
+    <svg width="400" height="180">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+    <h2>Parte C del ejercicio</h2>
+    <table border="1">
+        <tr>
+            <th>Canvas</th>
+            <th>SVG</th>
+        </tr>
+        <tr>
+            <td>Resolution dependent</td>
+            <td>Resolution independent</td>
+        </tr>
+        <tr>
+            <td>No support for event handlers</td>
+            <td>Support for event handlers</td>
+        </tr>
+        <tr>
+            <td>Poor text rendering capabilities</td>
+            <td>Best suited for applications with large rendering areas (Google Maps)</td>
+        </tr>
+        <tr>
+            <td>You can save the resulting image as .png or .jpg</td>
+            <td>Slow rendering if complex (anything that uses the DOM a lot will be slow)</td>
+        </tr>
+        <tr>
+            <td>Well suited for graphic-intensive games</td>
+            <td>Not suited for game applications</td>
+        </tr>
+    </table>
+</body>
+</html>
